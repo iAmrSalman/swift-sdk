@@ -71,15 +71,6 @@ public struct IterableInboxView: View {
     }
     
     public var body: some View {
-        var view = InboxViewRepresentable()
-        view.noMessagesTitle = noMessagesTitle
-        view.noMessagwsBody = noMessagesBody
-        view.showCountInUnreadBadge = showCountInUnreadBadge
-        view.isPopup = isPopup
-        view.cellNibName = cellNibName
-        view.popupModalPresentationStyle = popupModalPresentationStyle
-        view.viewDelegate = viewDelegate
-        return view
     }
     
     private var noMessagesTitle: String?
